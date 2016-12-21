@@ -170,14 +170,15 @@ p {
   height: 86px;
   width: 86px;
 }
-#callout1, #callout2, #callout3 {
+#callout1, #callout2, #callout3, #contactbutton {
   float: left;
-  width: 320px;
+  height: 130px; 
+  width: 240px;
   background-color: #BF9C73;
 }
 
 body {
-     background-color: #031027;
+     background-color: #FFF4E5;
      } 
 #banner {
   clear: both;
@@ -186,11 +187,12 @@ body {
   line-height: 366px;
   padding-left: 31px;
   padding-right: 31px;
-  background-image: url('../img/oldpeople.jpg');
-  background-position-x: 115px;
+  background-image: url('../img/oldpeoplebig.jpg');
 }
 #banner h1 {
   margin: 0px;
+  text-align: center;
+  line-height: 1.5;
 }
 #footer {
   clear: both;
@@ -205,12 +207,11 @@ body {
   line-height: 28px;
 }
 #sidebar {
-
   width: 367px;
   float: left;
+  position: fixed; 
+  line-height:1.5;
 }
-
-
 
 
 
