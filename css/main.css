@@ -173,8 +173,9 @@ p {
 #callout1, #callout2, #callout3, #contactbutton {
   float: left;
   height: 130px; 
-  width: 240px;
-  background-color: #BF9C73;
+  width: 228px;
+  background-color: transparent;
+  padding-left:12px;
 }
 
 body {
@@ -183,7 +184,7 @@ body {
 #banner {
   clear: both;
   background-color: green;
-  height: 366px;
+  height: 346px;
   line-height: 366px;
   padding-left: 31px;
   padding-right: 31px;
@@ -196,7 +197,7 @@ body {
 }
 #footer {
   clear: both;
-  background-color: #BF9C73
+  background-color: #F0B25F;
 }
 #main_content {
   width: 545px;
