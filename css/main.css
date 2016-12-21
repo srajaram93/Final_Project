@@ -198,8 +198,8 @@ body {
 #footer {
   clear: both;
   background-color: #F0B25F;
-  padding-left:12px
-}
+  padding-left:12px;  
+} 
 #main_content {
   width: 545px;
   padding-left: 24px;
@@ -214,10 +214,22 @@ body {
   position: fixed; 
   line-height:1.5;
 }
+#contactform {
+display: inline;
+background-color:lightgrey;
+border: 1px solid; 
+float: left;
+height:300px;
+width: 300px;
+margin-left:auto;
+margin-right:auto; 
+text-align: center; 
+} 
 
-
-
-
+#contactheader {
+float:left;
+display: inline; 
+} 
 
 
 /* ==========================================================================
